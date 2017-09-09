@@ -268,7 +268,7 @@ class WebGLRenderer implements Renderer {
 
         _lightsNeedUpdate = true {
 
-    this.devicePixelRatio =
+    devicePixelRatio =
         (devicePixelRatio != null) ? devicePixelRatio : ((window.devicePixelRatio != null) ? window.devicePixelRatio : 1.0);
 
     _lights = {
